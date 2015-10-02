@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <!--
 This is a library! Add books, search for books on author, title or genre, or update records.
+
+To do: make a second table in the database with loans: book id, and who has the book.
+Add button to searchresults to borrow the book, and add borrowed or not to results.
+Make a display of books that are borrowed and by whom.
 -->
 <?php
     include "books.php";

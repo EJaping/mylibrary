@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 
+<!--
+Update form. Update a record's author, title or genre. Fields are filled with
+the current value, and can then be overwritten by the user as needed.
+-->
+
 <h3>Update a book record!<br /><sub>Change the author, title and genre of the book.</sub></h3>
 <form method="post" action="index.php">
     <input type='hidden' name='ident' value="<?php echo $library->ident; ?>"/>
