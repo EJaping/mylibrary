@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<h3>Search the library!<br /><sub>Search on author, title or genre.</sub></h3>
+<form method="post" action="index.php" id="searchForm">
+    Search by author:<br />
+    <input type="search" name="authorSearch" />
+    <input type="submit" name="startAuthorSearch" value="Go!" /><br />
+</form>    
+<br />    
+<br />
+
+<form method="post" action="index.php" id="searchForm">    
+    Search by title:<br />
+    <input type="search" name="titleSearch" />
+    <input type="submit" name="startTitleSearch" value="Go!" /><br />
+</form>    
+<br />
+<br />
+
+<form method="post" action="index.php" id="searchForm">
+    Search by genre:<br />
+    <select name="genreSearch" id="genreSearch">
+        <option value="Children">Children</option>
+        <option value="Fantasy">Fantasy</option>
+        <option value="Non Fiction">Non Fiction</option>
+        <option value="Science Fiction">Science Fiction</option>
+    </select>
+    <input type="submit" name="startGenreSearch" value="Go!" />
+</form>

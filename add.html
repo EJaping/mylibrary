@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<h3>Add a book!<br /><sub>Fill in the author, title and genre of the book you want to add.</sub></h3>
+<form method="post" action="index.php">
+    <p id="addForm">
+        Author:<br />
+        <input type="text" name="author" />
+    </p>
+    <p id="addForm">
+        Title:<br />
+        <input type="text" name="title" />
+    </p>
+    <p id="addForm">
+        Genre:<br />
+        <select name="genre" id="genreSearch">
+            <option value="Children">Children</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Non Fiction">Non Fiction</option>
+            <option value="Science Fiction">Science Fiction</option>
+        </select>
+    </p>
+    <p>
+        <input type="submit" name="addBook" value="Add" />
+    </p>
+</form>

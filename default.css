@@ -1,0 +1,137 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(#FDFA93, white, white, white, #FDFA93);
+}
+
+h1 a{
+    padding-left: 250px;
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+h3 {
+    background-color: white;
+    max-width: 400px;
+}
+
+input[type=submit] {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  background: #E2D078;
+  background-image: linear-gradient(#8b4513, #E2D078, #E2D078, #E2D078, #E2D078, #E2D078, #8b4513);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: solid #8B4513 1px;
+  text-decoration: none;
+}
+
+#mainForm1 {
+    background-image: url("images/book.jpg");
+    background-size: contain;
+    border: ridge 3px saddlebrown;
+    float: left;
+    width: 220px;
+    margin: 0px 50px 50px 50px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#mainForm1 p {
+    font-size: x-large;
+    font-weight: bold;
+    height: 15px;
+}
+
+#mainForm1 input {
+    width: 110px;
+}
+
+#mainForm2 {
+    background-image: url("images/library.jpg");
+    background-size: contain;
+    border: ridge 3px saddlebrown;
+    float: left;
+    width: 220px;
+    margin: 0px 50px 50px 50px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#mainForm2 p {
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+        -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    height: 15px;
+}
+
+#mainForm2 input {
+    width: 110px;
+}
+
+#secondary {
+    background-image: url("images/flying books.jpg");
+    clear: left;
+    border: ridge 3px saddlebrown;
+    padding: 0px 50px 30px 100px;
+    width: 500px;
+    min-height: 300px;
+}
+
+#genreSearch {
+    width: 175px;
+}
+
+#images {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 700px;
+    border: ridge 3px saddlebrown;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#result {
+    background-color: white;
+    background-image: url("images/smallbook.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    width: 350px;
+    border: solid 1px black;
+    padding: 30px;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+#result input[type=submit] {
+    float: right;
+}
+
+#addForm, #searchForm, #updateForm, #added {
+    width: 300px;
+    background-color: white;
+}
+
+#addForm  input[type=text], #addForm select, #updateForm input[type=text] {
+    width: 300px;
+}
+
+#searchForm input[type=search],#searchForm select {
+    width: 250px;
+}
